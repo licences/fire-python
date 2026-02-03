@@ -11,12 +11,12 @@ import time
 # تهيئة pygame للصوت
 # =========================
 pygame.mixer.init()
-pygame.mixer.music.load(r"\s.mp3")
+pygame.mixer.music.load(r".\s.mp3")
 
 # =========================
 # تحميل الموديل
 # =========================
-model = YOLO(r"\fire.pt")
+model = YOLO(r".\fire.pt")
 class_names = model.names
 
 # =========================
